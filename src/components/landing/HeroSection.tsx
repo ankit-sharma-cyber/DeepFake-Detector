@@ -28,17 +28,17 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onLaunchApp }) => {
 
         <div className="hero-stats">
           <div className="stat-item">
-            <span className="stat-value">24,591+</span>
+            <span className="stat-value">2,067+</span>
             <span className="stat-label">Scans Processed</span>
           </div>
           <div className="stat-divider" />
           <div className="stat-item">
-            <span className="stat-value">99.4%</span>
+            <span className="stat-value">87%</span>
             <span className="stat-label">Model Accuracy</span>
           </div>
           <div className="stat-divider" />
           <div className="stat-item">
-            <span className="stat-value">&lt;2s</span>
+            <span className="stat-value">&lt;5s</span>
             <span className="stat-label">Average Scan Time</span>
           </div>
         </div>
