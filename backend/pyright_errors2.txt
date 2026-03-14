@@ -1,0 +1,14 @@
+﻿c:\Users\ankit_frj21mc\OneDrive\Desktop\oracles-decree\backend\app.py
+  c:\Users\ankit_frj21mc\OneDrive\Desktop\oracles-decree\backend\app.py:125:25 - error: Argument of type "str | None" cannot be assigned to parameter "filename" of type "str" in function "allowed_file"
+  ┬á┬áType "str | None" is not assignable to type "str"
+  ┬á┬á┬á┬á"None" is not assignable to "str" (reportArgumentType)
+  c:\Users\ankit_frj21mc\OneDrive\Desktop\oracles-decree\backend\app.py:129:32 - error: Argument of type "str | None" cannot be assigned to parameter "filename" of type "str" in function "secure_filename"
+  ┬á┬áType "str | None" is not assignable to type "str"
+  ┬á┬á┬á┬á"None" is not assignable to "str" (reportArgumentType)
+  c:\Users\ankit_frj21mc\OneDrive\Desktop\oracles-decree\backend\app.py:165:25 - error: Argument of type "str | None" cannot be assigned to parameter "filename" of type "str" in function "allowed_file"
+  ┬á┬áType "str | None" is not assignable to type "str"
+  ┬á┬á┬á┬á"None" is not assignable to "str" (reportArgumentType)
+  c:\Users\ankit_frj21mc\OneDrive\Desktop\oracles-decree\backend\app.py:168:32 - error: Argument of type "str | None" cannot be assigned to parameter "filename" of type "str" in function "secure_filename"
+  ┬á┬áType "str | None" is not assignable to type "str"
+  ┬á┬á┬á┬á"None" is not assignable to "str" (reportArgumentType)
+4 errors, 0 warnings, 0 informations

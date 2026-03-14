@@ -1,0 +1,7 @@
+﻿c:\Users\ankit_frj21mc\OneDrive\Desktop\oracles-decree\backend\services\audio_detector.py
+  c:\Users\ankit_frj21mc\OneDrive\Desktop\oracles-decree\backend\services\audio_detector.py:19:28 - error: "genai" is unbound (reportUnboundVariable)
+  c:\Users\ankit_frj21mc\OneDrive\Desktop\oracles-decree\backend\services\audio_detector.py:19:34 - error: Cannot access attribute "GenerativeModel" for class "Unbound" (reportAttributeAccessIssue)
+c:\Users\ankit_frj21mc\OneDrive\Desktop\oracles-decree\backend\services\video_detector.py
+  c:\Users\ankit_frj21mc\OneDrive\Desktop\oracles-decree\backend\services\video_detector.py:19:28 - error: "genai" is unbound (reportUnboundVariable)
+  c:\Users\ankit_frj21mc\OneDrive\Desktop\oracles-decree\backend\services\video_detector.py:19:34 - error: Cannot access attribute "GenerativeModel" for class "Unbound" (reportAttributeAccessIssue)
+4 errors, 0 warnings, 0 informations

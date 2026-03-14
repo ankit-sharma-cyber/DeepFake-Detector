@@ -1,0 +1,33 @@
+# Node
+node_modules/
+dist/
+.vite/
+*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+*.egg-info/
+dist/
+build/
+
+# Backend uploads/cache
+backend/uploads/
+backend/models_cache/
+backend/data/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.DS_Store
+
+# Logs
+*.log
+npm-debug.log*

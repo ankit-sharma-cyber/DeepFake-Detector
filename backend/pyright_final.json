@@ -1,0 +1,142 @@
+﻿{
+    "version": "1.1.408",
+    "time": "1773448123022",
+    "generalDiagnostics": [
+        {
+            "file": "c:\\Users\\ankit_frj21mc\\OneDrive\\Desktop\\oracles-decree\\backend\\app.py",
+            "severity": "error",
+            "message": "Argument of type \"str | None\" cannot be assigned to parameter \"filename\" of type \"str\" in function \"allowed_file\"\n┬á┬áType \"str | None\" is not assignable to type \"str\"\n┬á┬á┬á┬á\"None\" is not assignable to \"str\"",
+            "range": {
+                "start": {
+                    "line": 124,
+                    "character": 24
+                },
+                "end": {
+                    "line": 124,
+                    "character": 37
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "c:\\Users\\ankit_frj21mc\\OneDrive\\Desktop\\oracles-decree\\backend\\app.py",
+            "severity": "error",
+            "message": "Argument of type \"str | None\" cannot be assigned to parameter \"filename\" of type \"str\" in function \"secure_filename\"\n┬á┬áType \"str | None\" is not assignable to type \"str\"\n┬á┬á┬á┬á\"None\" is not assignable to \"str\"",
+            "range": {
+                "start": {
+                    "line": 128,
+                    "character": 31
+                },
+                "end": {
+                    "line": 128,
+                    "character": 44
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "c:\\Users\\ankit_frj21mc\\OneDrive\\Desktop\\oracles-decree\\backend\\app.py",
+            "severity": "error",
+            "message": "Argument of type \"str | None\" cannot be assigned to parameter \"filename\" of type \"str\" in function \"allowed_file\"\n┬á┬áType \"str | None\" is not assignable to type \"str\"\n┬á┬á┬á┬á\"None\" is not assignable to \"str\"",
+            "range": {
+                "start": {
+                    "line": 164,
+                    "character": 24
+                },
+                "end": {
+                    "line": 164,
+                    "character": 37
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "c:\\Users\\ankit_frj21mc\\OneDrive\\Desktop\\oracles-decree\\backend\\app.py",
+            "severity": "error",
+            "message": "Argument of type \"str | None\" cannot be assigned to parameter \"filename\" of type \"str\" in function \"secure_filename\"\n┬á┬áType \"str | None\" is not assignable to type \"str\"\n┬á┬á┬á┬á\"None\" is not assignable to \"str\"",
+            "range": {
+                "start": {
+                    "line": 167,
+                    "character": 31
+                },
+                "end": {
+                    "line": 167,
+                    "character": 44
+                }
+            },
+            "rule": "reportArgumentType"
+        },
+        {
+            "file": "c:\\Users\\ankit_frj21mc\\OneDrive\\Desktop\\oracles-decree\\backend\\services\\audio_detector.py",
+            "severity": "error",
+            "message": "\"genai\" is unbound",
+            "range": {
+                "start": {
+                    "line": 22,
+                    "character": 27
+                },
+                "end": {
+                    "line": 22,
+                    "character": 32
+                }
+            },
+            "rule": "reportUnboundVariable"
+        },
+        {
+            "file": "c:\\Users\\ankit_frj21mc\\OneDrive\\Desktop\\oracles-decree\\backend\\services\\audio_detector.py",
+            "severity": "error",
+            "message": "Cannot access attribute \"GenerativeModel\" for class \"Unbound\"",
+            "range": {
+                "start": {
+                    "line": 22,
+                    "character": 33
+                },
+                "end": {
+                    "line": 22,
+                    "character": 48
+                }
+            },
+            "rule": "reportAttributeAccessIssue"
+        },
+        {
+            "file": "c:\\Users\\ankit_frj21mc\\OneDrive\\Desktop\\oracles-decree\\backend\\services\\video_detector.py",
+            "severity": "error",
+            "message": "\"genai\" is unbound",
+            "range": {
+                "start": {
+                    "line": 22,
+                    "character": 27
+                },
+                "end": {
+                    "line": 22,
+                    "character": 32
+                }
+            },
+            "rule": "reportUnboundVariable"
+        },
+        {
+            "file": "c:\\Users\\ankit_frj21mc\\OneDrive\\Desktop\\oracles-decree\\backend\\services\\video_detector.py",
+            "severity": "error",
+            "message": "Cannot access attribute \"GenerativeModel\" for class \"Unbound\"",
+            "range": {
+                "start": {
+                    "line": 22,
+                    "character": 33
+                },
+                "end": {
+                    "line": 22,
+                    "character": 48
+                }
+            },
+            "rule": "reportAttributeAccessIssue"
+        }
+    ],
+    "summary": {
+        "filesAnalyzed": 3,
+        "errorCount": 8,
+        "warningCount": 0,
+        "informationCount": 0,
+        "timeInSec": 1.143
+    }
+}
+

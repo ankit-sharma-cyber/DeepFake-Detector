@@ -1,0 +1,143 @@
+/* DashboardView.css - Elegant Hero Section Styles */
+
+.elegant-hero {
+  background: linear-gradient(135deg, var(--bg-card) 0%, var(--bg-secondary) 100%);
+  border-radius: var(--radius-lg);
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  position: relative;
+  overflow: hidden;
+  color: var(--text-primary);
+}
+
+.elegant-hero::before {
+  content: '';
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  background: radial-gradient(circle at top right, rgba(13, 110, 253, 0.2), transparent 50%);
+  pointer-events: none;
+}
+
+.hero-content {
+  max-width: 600px;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-badge {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: rgba(var(--neon-blue-rgb, 13, 110, 253), 0.1);
+  border: 1px solid rgba(var(--neon-blue-rgb, 13, 110, 253), 0.2);
+  border-radius: 100px;
+  color: var(--neon-blue);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  backdrop-filter: blur(4px);
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+  font-family: var(--font-serif, 'Playfair Display', serif);
+}
+
+.hero-highlight {
+  color: var(--neon-blue);
+}
+
+.hero-subtitle {
+  font-size: 1.125rem;
+  color: var(--text-secondary);
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.hero-btn {
+  padding: 1rem 2rem;
+  border-radius: 100px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.hero-btn.primary {
+  background: #0D6EFD;
+  color: #FFFFFF;
+  box-shadow: 0 4px 15px rgba(13, 110, 253, 0.3);
+}
+
+.hero-btn.primary:hover {
+  background: #0B5ED7;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(13, 110, 253, 0.4);
+}
+
+.hero-btn.secondary {
+  background: transparent;
+  color: var(--text-primary);
+  border: 1px solid var(--border-card);
+}
+
+.hero-btn.secondary:hover {
+  background: rgba(13, 110, 253, 0.05);
+  border-color: var(--neon-blue);
+}
+
+.hero-graphic {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.graphic-circle {
+  position: absolute;
+  border-radius: 50%;
+  border: 1px dashed rgba(255, 255, 255, 0.2);
+}
+
+.graphic-circle.outer {
+  width: 100%;
+  height: 100%;
+  animation: spin 40s linear infinite;
+}
+
+.graphic-circle.inner {
+  width: 70%;
+  height: 70%;
+  border: 1px solid rgba(13, 110, 253, 0.4);
+  animation: spin 20s linear infinite reverse;
+}
+
+.hero-shield-icon {
+  color: var(--text-primary);
+  filter: drop-shadow(0 0 15px var(--neon-blue-glow));
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
